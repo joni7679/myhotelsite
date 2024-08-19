@@ -1,0 +1,119 @@
+:root {
+    --dark-blue: #414479;
+}
+
+/* custom css color */
+.dark-blue {
+    color: var(--dark-blue);
+}
+
+/* ====navbar==== */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* ====main====*/
+.main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ====hero section==== */
+.hero {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background-image: url('../images/b.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.hero-text {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.search-section {
+    width: 850px;
+    text-transform: capitalize;
+}
+
+/*====about section== */
+.about-text {
+    color: var(--brown-text);
+}
+
+.about img {
+    border-radius: 8px;
+}
+
+/*====serives  section== */
+.serives-img {
+    height: 300px;
+}
+
+/*====place section== */
+.place-img {
+    height: 300px;
+}
+
+.place-img img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.place-bg {
+    background-color: #AFF5FF;
+}
+
+.overly {
+    top: -500px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.5s;
+}
+
+.place-card:hover>.overly {
+    top: 0;
+    transition: all 0.5s;
+}
+
+/*====contact section===*/
+.contact-box {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* ====clicent feedback section===== */
+.feedbacks .card {
+    border: none;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+.review-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+/* partners section */
+.partner-img{
+    width: 90px;
+}
+
+.partner-img img {
+    width:  100px;
+    height: 100%;
+    object-fit: cover;
+}

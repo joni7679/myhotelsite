@@ -1,0 +1,23 @@
+@media(max-width:850px) {
+    .search-section {
+        flex-direction: column;
+        width: 600px;
+    }
+}
+
+@media (max-width:760px) {
+    .places-boxs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:460px) {
+    .banner-tittle {
+        width: 300px;
+
+    }
+}
