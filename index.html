@@ -24,7 +24,7 @@
 
     <main class="main">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
                 <a class="navbar-brand" href="#">LOGO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -48,25 +48,27 @@
             <div class="hero-text position-absolute top-50 start-50 translate-middle text-white">
                 <h1 class="display-4">WELCOME TO</h1>
                 <h2 class="display-5">Explore India</h2>
-                <div class="d-flex bg-white p-3 search-section rounded gap-3">
-                    <div class="input-section">
-                        <div class="input-filled w-full"><input type="text" class="form-control"
-                                placeholder="Your Current Location" name="" id=""></div>
-                    </div>
-                    <div class="input-section">
-                        <div class="input-filled w-full"><input type="text" class="form-control" name="" id=""
-                                placeholder="Travel Category"></div>
-                    </div>
-                    <div class="input-section">
-                        <div class="input-filled w-full"><input type="text" class="form-control" name="" id=""
-                                placeholder="Destion Type"></div>
-                    </div>
-                    <div>
+                <div class="">
+                    <div class="d-flex bg-white p-3 search-section rounded gap-3">
                         <div class="input-section">
-                            <button class=" shrink-0 w-full text-capitalize btn btn-primary"> <i
-                                    class="ri-search-line"></i>
-                                find
-                                now</button>
+                            <div class="input-filled w-full"><input type="text" class="form-control"
+                                    placeholder="Your Current Location" name="" id=""></div>
+                        </div>
+                        <div class="input-section">
+                            <div class="input-filled w-full"><input type="text" class="form-control" name="" id=""
+                                    placeholder="Travel Category"></div>
+                        </div>
+                        <div class="input-section">
+                            <div class="input-filled w-full"><input type="text" class="form-control" name="" id=""
+                                    placeholder="Destion Type"></div>
+                        </div>
+                        <div>
+                            <div class="input-section">
+                                <button class=" shrink-0 w-full text-capitalize btn btn-primary"> <i
+                                        class="ri-search-line"></i>
+                                    find
+                                    now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -75,7 +77,7 @@
         <!-- About Us Section -->
         <section class="about py-5 bg-light text-center overflow-hidden">
             <div class="container">
-                <h2 class="about-text">ABOUT US</h2>
+                <h2 class="about-text custom-font">ABOUT US</h2>
                 <div class="row align-items-center mt-4">
                     <div class="col-md-6">
                         <img src="./assets/images/INDIAN-MAP.png" alt="India Map" class="img-fluid" data-aos="zoom-in">
@@ -99,43 +101,46 @@
             </div>
         </section>
         <!-- WE PROVIDES section start here -->
-        <div class="container">
-            <div class="text-center">
-                <h3>services</h3>
-                <h2 class="text-center dark-blue">WE PROVIDES</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="img-fluid serives-img" src="./assets/images/SERVICES IMG.jpg" alt="">
+        <div class="provides-section p-5">
+            <div class="container">
+                <div class="text-center">
+                    <h3>services</h3>
+                    <h2 class="text-center dark-blue custom-font">WE PROVIDES</h2>
                 </div>
-                <div class="col-md-6 position-relative h-full">
-                    <div class="title ">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet cumque quas saepe
-                            reprehenderit,
-                            optio ducimus tempora, soluta vitae, atque voluptates sit maiores provident illum veritatis
-                            beatae quam a sed ea iste. Unde, in suscipit.</p>
-                    </div>
-                    <div class="position-absolute bottom-0 start-0">
-                        <button class="text-capitalize btn btn-primary">know more</button>
-                    </div>
 
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img class="img-fluid serives-img" src="./assets/images/SERVICES IMG.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 position-relative h-full">
+                        <div class="title ">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet cumque quas saepe
+                                reprehenderit,
+                                optio ducimus tempora, soluta vitae, atque voluptates sit maiores provident illum
+                                veritatis
+                                beatae quam a sed ea iste. Unde, in suscipit.</p>
+                        </div>
+                        <div class="position-absolute bottom-0 start-0">
+                            <button class="text-capitalize btn btn-primary">know more</button>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Places Section -->
-        <section class="places py-5 bg-light text-center overflow-hidden">
+        <section class="places py-5  text-center overflow-hidden">
             <div class="container">
                 <div class="text-center">
                     <h3>Places</h3>
-                    <h2 class="dark-blue">CHOOSE PLACE</h2>
+                    <h2 class="dark-blue custom-font">CHOOSE PLACE</h2>
                 </div>
                 <div class="row mt-4">
                     <div class="col-md-4 col-sm-12">
                         <div class="place-bg rounded position-relative place-card overflow-hidden "
                             data-aos="fade-right">
                             <div class="overly position-absolute p-5 text-white text-start">
-                                <h5>Ayodhya Ram Mandir</h5>
+                                <h5 class="custom-font">Ayodhya Ram Mandir</h5>
                                 <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
                                     magnam
                                     quidem, illum cum
@@ -147,13 +152,13 @@
                             <div class="place-img ">
                                 <img src="./assets/images/ram-mandir.png" alt="Place Image" class="img-fluid rounded">
                             </div>
-                            <h4 class="mt-3 p-2">Ayodhya Ram Mandir</h4>
+                            <h4 class="mt-3 p-2 custom-font">Ayodhya Ram Mandir</h4>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <div class="place-bg rounded position-relative place-card overflow-hidden " data-aos="fade-up">
                             <div class="overly position-absolute p-5 text-white text-start">
-                                <h5>INDIAN MUSEUM KOLKATA</h5>
+                                <h5 class="custom-font">INDIAN MUSEUM KOLKATA</h5>
                                 <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
                                     magnam
                                     quidem, illum cum
@@ -166,14 +171,14 @@
                                 <img src="https://imgs.search.brave.com/cfJzwhFe8aVYVlTCG-qG4tZuth1W8_zOe3duvClK6uQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9rb2xr/YXRhdG91cmlzbS50/cmF2ZWwvaW1hZ2Vz/L3BsYWNlcy10by12/aXNpdC9oZWFkZXJz/L2luZGlhbi1tdXNl/dW0ta29sa2F0YS1l/bnRyeS1mZWUtdGlt/aW5ncy1ob2xpZGF5/cy1yZXZpZXdzLWhl/YWRlci5qcGc"
                                     alt="Place Image" class="img-fluid rounded">
                             </div>
-                            <h4 class="mt-3 p-2">INDIAN MUSEUM KOLKATA</h4>
+                            <h4 class="mt-3 p-2 custom-font">INDIAN MUSEUM KOLKATA</h4>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <div class="place-bg rounded position-relative place-card overflow-hidden "
                             data-aos="fade-left">
                             <div class="overly position-absolute p-5 text-white text-start">
-                                <h5>The Red Fort</h5>
+                                <h5 class="custom-font">The Red Fort</h5>
                                 <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
                                     magnam
                                     quidem, illum cum
@@ -185,34 +190,175 @@
                             <div class="place-img ">
                                 <img src="./assets/images/red-fort.png" alt="Place Image" class="img-fluid rounded">
                             </div>
-                            <h4 class="mt-3 p-2">The Red Fort</h4>
+                            <h4 class="mt-3 p-2 custom-font">The Red Fort</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- why choose us section -->
+        <div class="why-choose-us-section">
+            <div class="container-fluid why-choose-us">
+                <div class="highlight-box">
+                    <h3 class="custom-font">WHY CHOOSE US</h3>
+                    <div class="d-flex justify-content-center align-items-center gap-4 why-choose-us-box p-5 rounded">
+                        <div class="p-3">
+                            <div class="stat">40K +</div>
+                            <div class="description">USERS</div>
+                        </div>
+                        <div class="p-3">
+                            <div class="stat">10K +</div>
+                            <div class="description">PARTNERS</div>
+                        </div>
+                        <div class="p-3">
+                            <div class="stat">35K +</div>
+                            <div class="description">GOOD REVIEWS</div>
+                        </div>
+                        <div class="p-3">
+                            <div class="stat">24/7</div>
+                            <div class="description">SERVICE</div>
+                        </div>
+                        <div class="p-3">
+                            <div class="stat">38K +</div>
+                            <div class="description">GOOD REVIEWS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Choose Restaurant Section -->
         <section class="restaurant py-5 text-center">
-            <div class="container">
-                <h2 class="dark-blue">CHOOSE RESTAURANT</h2>
-                <div class="row mt-4">
-                    <div class="col-md-6">
-                        <img src="https://via.placeholder.com/200x150" alt="Restaurant Image" class="img-fluid">
-                        <h3 class="mt-3">Kha Kha Restaurant</h3>
-                        <button class="btn btn-primary mt-2">Book Now</button>
+            <div class="container text-capitalize">
+                <div class="text-center">
+                    <h4 class="text-capitalize">food place</h4>
+                    <h2 class="dark-blue custom-font">CHOOSE RESTAURANT</h2>
+
+                </div>
+                <div class="row mt-4 ">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="place-bg rounded position-relative place-card overflow-hidden ">
+                            <div class="overly position-absolute p-5 text-white text-start">
+                                <h5 class="custom-font text-capitalize">khi khi restaurant</h5>
+                                <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                    magnam
+                                    quidem, illum cum
+                                    .</p>
+                                <div class="text-center">
+                                    <button class="text-capitalize btn btn-primary">book now</button>
+                                </div>
+                            </div>
+                            <div class="place-img ">
+                                <img src="./assets/images/RESTUARANT 1.png" alt="Place Image" class="img-fluid rounded">
+                            </div>
+                            <h4 class="mt-3 p-2 custom-font text-capitalize">khi khi restaurant</h4>
+                        </div>
+
                     </div>
-                    <div class="col-md-6">
-                        <img src="https://via.placeholder.com/200x150" alt="Restaurant Image" class="img-fluid">
-                        <h3 class="mt-3">Italian Pizza Night</h3>
-                        <button class="btn btn-primary mt-2">Book Now</button>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="place-bg rounded position-relative place-card overflow-hidden ">
+                            <div class="overly position-absolute p-5 text-white text-start">
+                                <h5 class="custom-font text-capitalize">khi khi restaurant</h5>
+                                <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                    magnam
+                                    quidem, illum cum
+                                    .</p>
+                                <div class="text-center">
+                                    <button class="text-capitalize btn btn-primary">book now</button>
+                                </div>
+                            </div>
+                            <div class="place-img ">
+                                <img src="./assets/images/RESTUARANT 1.png" alt="Place Image" class="img-fluid rounded">
+                            </div>
+                            <h4 class="mt-3 p-2 custom-font text-capitalize">khi khi restaurant</h4>
+                        </div>
+
                     </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="place-bg rounded position-relative place-card overflow-hidden ">
+                            <div class="overly position-absolute p-5 text-white text-start">
+                                <h5 class="custom-font text-capitalize">khi khi restaurant</h5>
+                                <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                    magnam
+                                    quidem, illum cum
+                                    .</p>
+                                <div class="text-center">
+                                    <button class="text-capitalize btn btn-primary">book now</button>
+                                </div>
+                            </div>
+                            <div class="place-img ">
+                                <img src="./assets/images/RESTUARANT 1.png" alt="Place Image" class="img-fluid rounded">
+                            </div>
+                            <h4 class="mt-3 p-2 custom-font text-capitalize">khi khi restaurant</h4>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-12 mt-4">
+                        <div class="place-bg rounded position-relative place-card overflow-hidden ">
+                            <div class="overly position-absolute p-5 text-white text-start">
+                                <h5 class="custom-font text-capitalize">khi khi restaurant</h5>
+                                <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                    magnam
+                                    quidem, illum cum
+                                    .</p>
+                                <div class="text-center">
+                                    <button class="text-capitalize btn btn-primary">book now</button>
+                                </div>
+                            </div>
+                            <div class="place-img ">
+                                <img src="./assets/images/RESTUARANT 1.png" alt="Place Image" class="img-fluid rounded">
+                            </div>
+                            <h4 class="mt-3 p-2 custom-font text-capitalize">khi khi restaurant</h4>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-12 mt-4">
+                        <div class="place-bg rounded position-relative place-card overflow-hidden ">
+                            <div class="overly position-absolute p-5 text-white text-start">
+                                <h5 class="custom-font text-capitalize">khi khi restaurant</h5>
+                                <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                    magnam
+                                    quidem, illum cum
+                                    .</p>
+                                <div class="text-center">
+                                    <button class="text-capitalize btn btn-primary">book now</button>
+                                </div>
+                            </div>
+                            <div class="place-img ">
+                                <img src="./assets/images/RESTUARANT 1.png" alt="Place Image" class="img-fluid rounded">
+                            </div>
+                            <h4 class="mt-3 p-2 custom-font text-capitalize">khi khi restaurant</h4>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-12 mt-4">
+                        <div class="place-bg rounded position-relative place-card overflow-hidden ">
+                            <div class="overly position-absolute p-5 text-white text-start">
+                                <h5 class="custom-font text-capitalize">khi khi restaurant</h5>
+                                <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                    magnam
+                                    quidem, illum cum
+                                    .</p>
+                                <div class="text-center">
+                                    <button class="text-capitalize btn btn-primary">book now</button>
+                                </div>
+                            </div>
+                            <div class="place-img ">
+                                <img src="./assets/images/RESTUARANT 1.png" alt="Place Image" class="img-fluid rounded">
+                            </div>
+                            <h4 class="mt-3 p-2 custom-font text-capitalize">khi khi restaurant</h4>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </section>
         <!-- Contact Us Section -->
         <section class="contact py-5 bg-light text-center">
             <div class="container">
-                <h2 class="dark-blue">GET IN TOUCH</h2>
+                <h2 class="dark-blue custom-font">GET IN TOUCH</h2>
                 <div class="contact-box mx-auto" style="max-width: 600px;">
                     <input type="text" class="form-control mb-3" placeholder="Enter your name">
                     <input type="email" class="form-control mb-3" placeholder="Enter your email">
@@ -224,7 +370,7 @@
         <!-- Client Feedbacks Section -->
         <section class="feedbacks py-5 text-center">
             <div class="container">
-                <h2 class="dark-blue">CLIENTS' FEEDBACKS</h2>
+                <h2 class="dark-blue custom-font">CLIENTS' FEEDBACKS</h2>
                 <div class=" mt-4 review-silder gap-2">
                     <div class="review p-3">
                         <div class="card shadow p-3 mb-5 bg-body rounded">
@@ -417,8 +563,6 @@
                                         </div>
 
                                     </div>
-
-
                                 </div>
                                 <p class="card-text mt-3">"This is a great restaurant. The food is delicious and
                             </div>
@@ -428,13 +572,13 @@
             </div>
         </section>
         <!-- our partners Section -->
-        <div class="partners-sections">
+        <div class="partners-sections p-5">
             <div class="container">
                 <div class="text-center">
-                    <h3>SPONSORED</h3>
-                    <h2>OUR PARTNERS</h2>
+                    <h4>SPONSORED</h4>
+                    <h2 class="custom-font dark-blue">OUR PARTNERS</h2>
                 </div>
-                <div class="partners-silder">
+                <div class="partners-silder mt-5">
                     <div class="partner-img">
                         <img class="img-fluid" src="./assets/images/PARTNER 1.png" alt="">
                     </div>
@@ -457,8 +601,7 @@
                         <img class="img-fluid" src="./assets/images/PARTNER 7.png" alt="">
                     </div>
                 </div>
-
-                <div class="partners-silder1" >
+                <div class="partners-silder1">
                     <div class="partner-img">
                         <img class="img-fluid" src="./assets/images/PARTNER 1.png" alt="">
                     </div>
@@ -484,11 +627,11 @@
             </div>
         </div>
         <!-- Footer -->
-        <footer class="footer bg-dark text-white">
+        <footer class="footer bg-dark text-white p-5">
             <div class="container">
-                <div class="row">
+                <div class="row p-2">
                     <div class="col-md-3 col-sm-12 text-start">
-                        <img class="img-fulid" src="./assets/images/logo.png" alt="logo">
+                        <img class="img-fulid logo" src="./assets/images/logo.png" alt="logo">
                         <p class="text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been
                             the industry's standard dummy text ever since the 1500s.</p>
@@ -497,49 +640,50 @@
                         <h5>Quick Links</h5>
                         <hr>
                         <ul class="list-unstyled text-start">
-                            <li class="mt-3"><a href="#" class="text-white "> <img src="./assets/images/hand.png"
-                                        alt="">
+                            <li class="mt-3"><a href="#" class="text-white text-decoration-none "> <img
+                                        src="./assets/images/hand.png" alt="">
                                     About us</a>
                             </li>
-                            <li class="mt-3"><a href="#" class="text-white "> <img src="./assets/images/hand.png"
-                                        alt="">
+                            <li class="mt-3"><a href="#" class="text-white text-decoration-none "> <img
+                                        src="./assets/images/hand.png" alt="">
                                     Services</a>
                             </li>
-                            <li class="mt-3"><a href="#" class="text-white "> <img src="./assets/images/hand.png"
-                                        alt="">
+                            <li class="mt-3"><a href="#" class="text-white text-decoration-none "> <img
+                                        src="./assets/images/hand.png" alt="">
                                     Best Rooms</a>
                             </li>
-                            <li class="mt-3"><a href="#" class="text-white "> <img src="./assets/images/hand.png"
-                                        alt="">
+                            <li class="mt-3"><a href="#" class="text-white  text-decoration-none"> <img
+                                        src="./assets/images/hand.png" alt="">
                                     Restaurant</a>
                             </li>
-                            <li class="mt-3"><a href="#" class="text-white "> <img src="./assets/images/hand.png"
-                                        alt="">
+                            <li class="mt-3"><a href="#" class="text-white  text-decoration-none"> <img
+                                        src="./assets/images/hand.png" alt="">
                                     Special
                                     Packages</a>
                             </li>
-
-
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-12">
                         <h5>Our Branches</h5>
                         <hr>
                         <ul class="list-unstyled text-start">
-                            <li class="mt-3"><a href="#" class="text-white "> <i class="ri-map-pin-fill"></i> Mumbai</a>
+                            <li class="mt-3"><a href="#" class="text-white  text-decoration-none"> <i
+                                        class="ri-map-pin-fill"></i> Mumbai</a>
                             </li>
-                            <li class="mt-3"><a href="#" class="text-white "> <i class="ri-map-pin-fill"></i> Delhi</a>
+                            <li class="mt-3"><a href="#" class="text-white  text-decoration-none"> <i
+                                        class="ri-map-pin-fill"></i> Delhi</a>
                             </li>
-                            <li class="mt-3"><a href="#" class="text-white "> <i class="ri-map-pin-fill"></i>Kolkata</a>
+                            <li class="mt-3"><a href="#" class="text-white  text-decoration-none"> <i
+                                        class="ri-map-pin-fill"></i>Kolkata</a>
                             </li>
-                            <li class="mt-3"><a href="#" class="text-white "> <i class="ri-map-pin-fill"></i>
+                            <li class="mt-3"><a href="#" class="text-white  text-decoration-none"> <i
+                                        class="ri-map-pin-fill"></i>
                                     Chennai</a>
                             </li>
-                            <li class="mt-3"><a href="#" class="text-white "> <i class="ri-map-pin-fill"></i>
+                            <li class="mt-3"><a href="#" class="text-white text-decoration-none"> <i
+                                        class="ri-map-pin-fill"></i>
                                     Gurugram</a>
                             </li>
-
-
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-12">
@@ -571,7 +715,6 @@
             </div>
         </footer>
     </main>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

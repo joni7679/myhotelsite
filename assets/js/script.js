@@ -1,7 +1,7 @@
 // stlick silder js code
 
 $('.review-silder').slick({
-    dots: true,
+    dots: false,
     infinite: true,
     autoplay: true,
     speed: 300,
