@@ -13,6 +13,46 @@
     --bg-color: #eefcff
 }
 
+/* loader animation */
+/* Loader container */
+#loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+/* Spinner style */
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #ccc;
+    /* Light gray border */
+    border-top: 6px solid #3498db;
+    /* Blue border */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    /* Animation */
+}
+
+/* Spin animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Main content initially hidden */
+main {
+    display: none;
+}
+
+
 /* custom css color */
 .dark-blue {
     color: var(--dark-blue);
@@ -23,6 +63,7 @@
 }
 
 /* ====navbar==== */
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -40,47 +81,27 @@
 }
 
 /* ====hero section==== */
-.hero {
-    height: auto;
-    overflow: hidden;
-    background-image: url('../images/b.jpg');
+.hero-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/banner-img.png');
     background-position: center;
     background-size: cover;
 }
 
-.banner-part {
-    width: 100%;
-    height: 100%;
-}
 
-.hero img {
-    object-fit: cover;
-    height: 100%;
-}
-
-.hero-text {
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    width: 400px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
 
 .logo {
     width: 200px;
 }
 
-.hero-botoom-part {
-    background-color: #AFF5FF;
-}
+
 
 .search-section {
     background-color: #eefcff !important;
     width: 850px;
     text-transform: capitalize;
-    margin: 400px auto;
+
 }
 
 /*====about section== */
@@ -140,6 +161,7 @@
     padding: 40px 0;
     text-align: center;
     position: relative;
+
 }
 
 .why-choose-us .highlight-box {
@@ -184,8 +206,6 @@
     max-width: 600px;
     margin: auto;
 }
-
-
 
 /* ====clicent feedback section===== */
 .feedbacks .card {
@@ -237,10 +257,9 @@
 
 }
 
-
 /* why us section  */
 .why-choose-us-section {
-    margin: 100px;
+    margin: 100px auto;
 }
 
 /* choose text */

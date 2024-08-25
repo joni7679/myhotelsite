@@ -1,3 +1,16 @@
+
+window.addEventListener('load', function () {
+    // Hide the loader
+    document.getElementById('loader').style.display = 'none';
+
+    // Show the main content
+    document.querySelector('main').style.display = 'block';
+});
+
+
+
+
+
 // stlick silder js code
 
 $('.review-silder').slick({
@@ -85,7 +98,7 @@ $('.partners-silder').slick({
         {
             breakpoint: 480,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 3,
                 slidesToScroll: 1
             }
         },
@@ -142,7 +155,7 @@ $('.partners-silder1').slick({
         {
             breakpoint: 480,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 3,
                 slidesToScroll: 1
             }
         }

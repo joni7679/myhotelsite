@@ -3,6 +3,12 @@
         flex-direction: column;
         width: 600px;
     }
+
+    .why-choose-us-box {
+        flex-direction: column;
+        width: 500px;
+        margin: auto;
+    }
 }
 
 @media (max-width:760px) {
