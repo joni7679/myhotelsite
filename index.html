@@ -12,6 +12,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
     <!-- aos animation css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- custom css -->
@@ -44,35 +47,8 @@
             </div>
         </nav>
         <!-- Hero Section -->
-        <section class="hero position-relative text-center">
-            <div class="hero-text position-absolute top-50 start-50 translate-middle text-white">
-                <h1 class="display-4">WELCOME TO</h1>
-                <h2 class="display-5">Explore India</h2>
-                <div class="">
-                    <div class="d-flex bg-white p-3 search-section rounded gap-3">
-                        <div class="input-section">
-                            <div class="input-filled w-full"><input type="text" class="form-control"
-                                    placeholder="Your Current Location" name="" id=""></div>
-                        </div>
-                        <div class="input-section">
-                            <div class="input-filled w-full"><input type="text" class="form-control" name="" id=""
-                                    placeholder="Travel Category"></div>
-                        </div>
-                        <div class="input-section">
-                            <div class="input-filled w-full"><input type="text" class="form-control" name="" id=""
-                                    placeholder="Destion Type"></div>
-                        </div>
-                        <div>
-                            <div class="input-section">
-                                <button class=" shrink-0 w-full text-capitalize btn btn-primary"> <i
-                                        class="ri-search-line"></i>
-                                    find
-                                    now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section class="hero-section">
+            <div class="container"></div>
         </section>
         <!-- About Us Section -->
         <section class="about py-5 bg-light text-center overflow-hidden">
@@ -103,17 +79,18 @@
         <!-- WE PROVIDES section start here -->
         <section class="provides-section p-5">
             <div class="container">
-                <div class="text-center">
+                <div class="text-center" data-aos="fade-down">
                     <h3>services</h3>
                     <h2 class="text-center dark-blue custom-font">WE PROVIDES</h2>
                 </div>
 
                 <div class="row">
                     <div class="col-md-6 text-center">
-                        <img class="img-fluid serives-img" src="./assets/images/SERVICES IMG.jpg" alt="">
+                        <img class="img-fluid serives-img" src="./assets/images/SERVICES IMG.jpg" alt=""
+                            data-aos="zoom-in">
                     </div>
                     <div class="col-md-6 position-relative h-full">
-                        <div class="title ">
+                        <div class="title " data-aos="zoom-out">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet cumque quas saepe
                                 reprehenderit,
                                 optio ducimus tempora, soluta vitae, atque voluptates sit maiores provident illum
@@ -136,7 +113,7 @@
                     <h2 class="dark-blue custom-font">CHOOSE PLACE</h2>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="place-bg rounded position-relative place-card overflow-hidden "
                             data-aos="fade-right">
                             <div class="overly position-absolute p-5 text-white text-start">
@@ -155,7 +132,7 @@
                             <h4 class="mt-3 p-2 custom-font">Ayodhya Ram Mandir</h4>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="place-bg rounded position-relative place-card overflow-hidden " data-aos="fade-up">
                             <div class="overly position-absolute p-5 text-white text-start">
                                 <h5 class="custom-font">INDIAN MUSEUM KOLKATA</h5>
@@ -174,7 +151,7 @@
                             <h4 class="mt-3 p-2 custom-font">INDIAN MUSEUM KOLKATA</h4>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 sm-mt-3">
                         <div class="place-bg rounded position-relative place-card overflow-hidden "
                             data-aos="fade-left">
                             <div class="overly position-absolute p-5 text-white text-start">
@@ -198,10 +175,11 @@
         </section>
         <!-- why choose us section -->
         <section class="why-choose-us-section">
-            <div class="container-fluid why-choose-us">
+            <div class="container-fluid why-choose-us py-5">
                 <div class="highlight-box">
-                    <h3 class="custom-font">WHY CHOOSE US</h3>
-                    <div class="d-flex justify-content-center align-items-center gap-4 why-choose-us-box p-5 rounded">
+                    <div
+                        class="d-flex justify-content-center align-items-center gap-4 why-choose-us-box p-5 rounded  position-relative">
+                        <h3 class="custom-font position-absolute choose-text">WHY CHOOSE US</h3>
                         <div class="p-3">
                             <div class="stat">40K +</div>
                             <div class="description">USERS</div>
@@ -232,10 +210,9 @@
                 <div class="text-center">
                     <h4 class="text-capitalize">food place</h4>
                     <h2 class="dark-blue custom-font">CHOOSE RESTAURANT</h2>
-
                 </div>
                 <div class="row mt-4 ">
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 ">
                         <div class="place-bg rounded position-relative place-card overflow-hidden ">
                             <div class="overly position-absolute p-5 text-white text-start">
                                 <h5 class="custom-font text-capitalize">khi khi restaurant</h5>
@@ -252,9 +229,8 @@
                             </div>
                             <h4 class="mt-3 p-2 custom-font text-capitalize">khi khi restaurant</h4>
                         </div>
-
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 ">
                         <div class="place-bg rounded position-relative place-card overflow-hidden ">
                             <div class="overly position-absolute p-5 text-white text-start">
                                 <h5 class="custom-font text-capitalize">khi khi restaurant</h5>
@@ -267,16 +243,16 @@
                                 </div>
                             </div>
                             <div class="place-img ">
-                                <img src="./assets/images/RESTUARANT 1.png" alt="Place Image" class="img-fluid rounded">
+                                <img src="./assets/images/RESTUARANT 2.png" alt="Place Image" class="img-fluid rounded">
                             </div>
                             <h4 class="mt-3 p-2 custom-font text-capitalize">khi khi restaurant</h4>
                         </div>
 
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 sm-mt-3">
                         <div class="place-bg rounded position-relative place-card overflow-hidden ">
                             <div class="overly position-absolute p-5 text-white text-start">
-                                <h5 class="custom-font text-capitalize">khi khi restaurant</h5>
+                                <h5 class="custom-font text-capitalize">ITALIAN PIZZA NIGHT</h5>
                                 <p class=" text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
                                     magnam
                                     quidem, illum cum
@@ -286,9 +262,9 @@
                                 </div>
                             </div>
                             <div class="place-img ">
-                                <img src="./assets/images/RESTUARANT 1.png" alt="Place Image" class="img-fluid rounded">
+                                <img src="./assets/images/RESTUARANT 3.png" alt="Place Image" class="img-fluid rounded">
                             </div>
-                            <h4 class="mt-3 p-2 custom-font text-capitalize">khi khi restaurant</h4>
+                            <h4 class="mt-3 p-2 custom-font text-capitalize">ITALIAN PIZZA NIGHT</h4>
                         </div>
 
                     </div>
@@ -301,7 +277,7 @@
         <section class="book-now-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-12 ">
+                    <div class=" col-lg-4 col-md-6 col-sm-12 ">
                         <div class="place-bg rounded position-relative place-card overflow-hidden ">
                             <div class="place-img ">
                                 <img src="./assets/images/OLA.png" alt="Place Image" class="img-fluid rounded">
@@ -309,7 +285,7 @@
                             <h4 class="mt-3 p-2 custom-font text-capitalize text-center">Indian Cab (OLA)</h4>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 ">
+                    <div class=" col-lg-4 col-md-6 col-sm-12 ">
                         <div class="place-bg rounded position-relative place-card overflow-hidden ">
                             <div class="place-img ">
                                 <img src="./assets/images/yellow.png" alt="Place Image" class="img-fluid rounded">
@@ -317,7 +293,7 @@
                             <h4 class="mt-3 p-2 custom-font text-capitalize text-center">Indian Cab (OLA)</h4>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 ">
+                    <div class=" col-lg-4 col-md-6 col-sm-12 sm-mt-3">
                         <div class="place-bg rounded position-relative place-card overflow-hidden ">
                             <div class="place-img ">
                                 <img src="./assets/images/UBER-IMG.png" alt="Place Image" class="img-fluid rounded">
@@ -325,7 +301,7 @@
                             <h4 class="mt-3 p-2 custom-font text-capitalize text-center">Indian Cab (OLA)</h4>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 mt-3">
+                    <div class=" col-lg-4 col-md-6 col-sm-12 sm-mt-3 mt-3">
                         <div class="place-bg rounded position-relative place-card overflow-hidden ">
                             <div class="place-img ">
                                 <img src="./assets/images/TRAIN.png" alt="Place Image" class="img-fluid rounded">
@@ -333,7 +309,7 @@
                             <h4 class="mt-3 p-2 custom-font text-capitalize text-center">Indian Cab (OLA)</h4>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 mt-3">
+                    <div class=" col-lg-4 col-md-6 col-sm-12 mt-3">
                         <div class="place-bg rounded position-relative place-card overflow-hidden ">
                             <div class="place-img ">
                                 <img src="./assets/images/airport.png" alt="Place Image" class="img-fluid rounded">
@@ -341,7 +317,7 @@
                             <h4 class="mt-3 p-2 custom-font text-capitalize text-center">Indian Cab (OLA)</h4>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 mt-3">
+                    <div class=" col-lg-4 col-md-6 col-sm-12 mt-3">
                         <div class="place-bg rounded position-relative place-card overflow-hidden ">
                             <div class="place-img ">
                                 <img src="./assets/images/rapido.png" alt="Place Image" class="img-fluid rounded">
@@ -566,6 +542,8 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </section>
         <!-- our partners Section -->
@@ -577,28 +555,28 @@
                 </div>
                 <div class="partners-silder mt-5">
                     <div class="partner-img">
-                        <img class="img-fluid" src="./assets/images/PARTNER 1.png" alt="">
+                        <img class="img-fluid responsive-img-square" src="./assets/images/PARTNER 1.png" alt="">
                     </div>
                     <div class="partner-img">
-                        <img class="img-fluid" src="./assets/images/PARTNER 2.png" alt="">
+                        <img class="img-fluid responsive-img-square" src="./assets/images/PARTNER 2.png" alt="">
                     </div>
                     <div class="partner-img">
-                        <img class="img-fluid" src="./assets/images/PARTNER 3.png" alt="">
+                        <img class="img-fluid responsive-img-square" src="./assets/images/PARTNER 3.png" alt="">
                     </div>
                     <div class="partner-img">
-                        <img class="img-fluid" src="./assets/images/PARTNER 4.png" alt="">
+                        <img class="img-fluid responsive-img-square" src="./assets/images/PARTNER 4.png" alt="">
                     </div>
                     <div class="partner-img">
-                        <img class="img-fluid" src="./assets/images/PARTNER 5.png" alt="">
+                        <img class="img-fluid responsive-img-square" src="./assets/images/PARTNER 5.png" alt="">
                     </div>
                     <div class="partner-img">
-                        <img class="img-fluid" src="./assets/images/PARTNER 6.png" alt="">
+                        <img class="img-fluid responsive-img-square" src="./assets/images/PARTNER 6.png" alt="">
                     </div>
                     <div class="partner-img">
-                        <img class="img-fluid" src="./assets/images/PARTNER 7.png" alt="">
+                        <img class="img-fluid responsive-img-square" src="./assets/images/PARTNER 7.png" alt="">
                     </div>
                 </div>
-                <div class="partners-silder1">
+                <div class="partners-silder1 mt-2" dir="rtl">
                     <div class="partner-img">
                         <img class="img-fluid" src="./assets/images/PARTNER 1.png" alt="">
                     </div>
@@ -635,7 +613,8 @@
                     </div>
                     <div class="col-md-3 col-sm-12">
                         <h5>Quick Links</h5>
-                        <hr>
+                        <div class="bootom-underline"></div>
+
                         <ul class="list-unstyled text-start">
                             <li class="mt-3"><a href="#" class="text-white text-decoration-none "> <img
                                         src="./assets/images/hand.png" alt="">
@@ -662,7 +641,8 @@
                     </div>
                     <div class="col-md-3 col-sm-12">
                         <h5>Our Branches</h5>
-                        <hr>
+                        <div class="bootom-underline"></div>
+
                         <ul class="list-unstyled text-start">
                             <li class="mt-3"><a href="#" class="text-white  text-decoration-none"> <i
                                         class="ri-map-pin-fill"></i> Mumbai</a>
@@ -685,32 +665,63 @@
                     </div>
                     <div class="col-md-3 col-sm-12">
                         <h5>Contact</h5>
-                        <hr>
+                        <div class="bootom-underline"></div>
                         <ul class="list-unstyled">
-                            <li class="d-flex align-items-start gap-2 mt-3"><i class="ri-phone-fill icons"></i> +91
+                            <li class="d-flex align-items-start gap-2 mt-3">
+                                <div class="icon"><i class="ri-phone-fill icons"></i></div> +91
                                 50001
                                 20003
                             </li>
-                            <li class="d-flex align-items-start gap-2 mt-3"><i class="ri-mail-fill icons"></i>
+                            <li class="d-flex align-items-start gap-2 mt-3">
+                                <div class="icon"><i class="ri-mail-fill icons"></i></div>
                                 janinastay@gmail.com
                             </li>
-                            <li class="d-flex align-items-start gap-2 mt-3"> <i class="ri-whatsapp-fill icons"></i>+91
+                            <li class="d-flex align-items-start gap-2 mt-3">
+                                <div class="icon"><i class="ri-whatsapp-fill icons"></i></div>+91
                                 80003
                                 50009
                             </li>
                         </ul>
                         <div class="social-icons d-flex align-items-start gap-2">
-                            <i class="ri-instagram-fill  icons"></i>
-                            <i class="ri-facebook-fill  icons"></i>
-                            <i class="ri-youtube-fill  icons"></i>
-                            <i class="ri-twitter-fill  icons"></i>
-                            <i class="ri-linkedin-fill  icons"></i>
+                            <div class="icon"><i class="ri-instagram-fill  icons"></i></div>
+                            <div class="icon"> <i class="ri-facebook-fill  icons"></i></div>
+                            <div class="icon"> <i class="ri-youtube-fill  icons"></i></div>
+                            <div class="icon"> <i class="ri-twitter-fill  icons"></i></div>
+                            <div class="icon"> <i class="ri-linkedin-fill  icons"></i></div>
                         </div>
                     </div>
                 </div>
                 <p class="mt-4 text-center">&copy; 2024 All rights reserved by Explore India Pvt.</p>
             </div>
         </footer>
+        <div class="hero-botoom-part">
+            <div class="d-flex bg-white p-3 search-section rounded gap-3">
+                <div class="input-section">
+                    <div class="input-filled w-full"><input type="text" class="form-control"
+                            placeholder="Your Current Location" name="" id=""></div>
+                </div>
+                <div class="input-section">
+                    <div class="input-filled w-full">
+                        <select class="form-control" name="" id="">
+                            <option value="">Choose your Travel category</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-section">
+                    <div class="input-filled w-full"><select class="form-control" name="" id="">
+                            <option value="">
+                                Destion Type</option>
+                        </select></div>
+                </div>
+                <div>
+                    <div class="input-section">
+                        <button class=" shrink-0 w-full text-capitalize btn btn-primary"> <i class="ri-search-line"></i>
+                            find
+                            now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -721,6 +732,9 @@
         crossorigin="anonymous"></script>
     <!-- jQuery (necessary for Slick slider to work) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
     <!-- Slick JS -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- aos animation js  -->

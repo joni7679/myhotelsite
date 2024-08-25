@@ -33,6 +33,7 @@ $('.review-silder').slick({
                 slidesToScroll: 1
             }
         },
+
         {
             breakpoint: 480,
             settings: {
@@ -45,6 +46,7 @@ $('.review-silder').slick({
         // instead of a settings object
     ]
 });
+// stlick silder js code end
 
 $('.partners-silder').slick({
     slidesToShow: 6,
@@ -53,7 +55,51 @@ $('.partners-silder').slick({
     autoplaySpeed: 0,
     speed: 8000,
     pauseOnHover: false,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 750,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 380,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
 });
 
 $('.partners-silder1').slick({
@@ -63,5 +109,45 @@ $('.partners-silder1').slick({
     autoplaySpeed: 0,
     speed: 8000,
     pauseOnHover: false,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    rtl: true,  // Add this option
+
+
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 750,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+            }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
 });
